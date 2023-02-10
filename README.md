@@ -40,4 +40,7 @@ Address operations are accessed from localhost:8088/api/v1/address.
 User actions are accessed from localhost:8088/api/v1/user
 
 
+![test](tomcat1.PNG)
+
+
 
