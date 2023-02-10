@@ -32,11 +32,15 @@ Initializer Class ;
 Bean starts by creating and repository access is provided.
 
 Application properties:
+
 In it, the server port is entered as server.port=8088.
+
 "Tomcat started on port(s): 8088 (http) with context path '
 It can also be accessed via Postman with the following endpoints.
 Address operations are accessed from localhost:8088/api/v1/address.
 User actions are accessed from localhost:8088/api/v1/user
+
+
 
 ![tomcat](https://github.com/seymailbay/webServiceUserAddress/blob/main/images/tomcat1.PNG)
 
