@@ -38,8 +38,7 @@ It can also be accessed via Postman with the following endpoints.
 Address operations are accessed from localhost:8088/api/v1/address.
 User actions are accessed from localhost:8088/api/v1/user
 
-
-![tomcat](tomcat1.PNG)
+![tomcat](https://github.com/seymailbay/webServiceUserAddress/blob/main/images/tomcat1.PNG)
 
 
 
