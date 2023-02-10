@@ -1,9 +1,12 @@
-package com.springmp.springmp.dto;
+package com.springmp.springmp.dto.userDTO;
 
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
 
+/**
+ * Kullanıcıları güncellemek için verileri transfer eder.
+ */
 @Data
 public class UserUpdateDTO {
 

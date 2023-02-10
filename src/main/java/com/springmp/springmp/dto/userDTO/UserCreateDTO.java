@@ -1,10 +1,14 @@
-package com.springmp.springmp.dto;
+package com.springmp.springmp.dto.userDTO;
 
 
 import com.springmp.springmp.validator.UniqueUserName;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 import lombok.Data;
+
+/**
+ * Yeni bir kullanıcı oluşturmak için verileri transfer eder.
+ */
 @Data
 public class UserCreateDTO {
 
@@ -20,5 +24,6 @@ public class UserCreateDTO {
     @NotNull(message = "{backend.constraints.lastName.notNull.message}")
     @Size(min=3, max=32, message = "{backend.constraints.lastName.Size.message}")
     private String lastName;
+
 
 }

@@ -1,4 +1,4 @@
-package com.springmp.springmp.repository;
+package com.springmp.springmp.repository.userRepository;
 
 import com.springmp.springmp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;

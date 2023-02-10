@@ -4,6 +4,15 @@ import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+/**
+ * **
+ *  * Bu sınıf users tablosunu JPA kullanarak veritabanına tanımlar.
+ *  *User sınıfı ile Address sınıfı arasındaki ilişki tanımlandı.
+ *  @OneToOne anotasyonu bu ilişkiyi belirtir ve Userda gerçekleşen her değişikliği Address sınıfına da taşır.
+ *  @JoinColunm(name =”Address_ID”) ile iki sınıfı bağlayan sutunun adı belirtilir.
+ *  */
+
+
 @Data
 @NoArgsConstructor
 @Entity
@@ -27,6 +36,16 @@ public class User {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    public User(String userName,String firstName, String lastName,Address address) {
+        this.userName=userName;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.address=address;
+    }
+
+    @OneToOne(cascade = CascadeType.ALL)
+    @JoinColumn(name = "Address_ID")
+    private Address address;
 
 
 }

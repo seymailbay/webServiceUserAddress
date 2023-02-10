@@ -1,6 +1,6 @@
 package com.springmp.springmp.validator;
 
-import com.springmp.springmp.repository.UserRepository;
+import com.springmp.springmp.repository.userRepository.UserRepository;
 import jakarta.validation.ConstraintValidator;
 import jakarta.validation.ConstraintValidatorContext;
 import lombok.RequiredArgsConstructor;
