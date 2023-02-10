@@ -2,7 +2,6 @@
 
 In the MVC based Spring project;
 
-
 Model: The model establishes the data and business logic of the web service. Address – two as User
 The model class is created.
 View: It is responsible for showing the data for the client. In this project userDTO and addressDTO
@@ -40,7 +39,7 @@ Address operations are accessed from localhost:8088/api/v1/address.
 User actions are accessed from localhost:8088/api/v1/user
 
 
-![test](tomcat1.PNG)
+![tomcat](tomcat1.PNG)
 
 
 
